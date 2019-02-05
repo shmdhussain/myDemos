@@ -21,7 +21,6 @@ var getJSON = function(url, successHandler, errorHandler) {
 getJSON('https://www.skynewsarabia.com/rest/v2/sidebar/article.json', function(data) {
 	console.log(data);
 
-
 	
 }, function(status) {
 	console.log(data);
